@@ -333,6 +333,7 @@ body {
 .member-social-link-icon {
   fill: var(--member-social-links-color);
   padding: 12px;
+  cursor: pointer;
 }
 
 .member-social-link-icon:hover,
@@ -366,9 +367,11 @@ body {
   border-width: 0 1px 1px 1px;
   border-style: solid;
   border-color: var(--border-bottom-card-title-container-color);
+  cursor: pointer;
 }
 
-.project-card:hover {
+.project-card:hover,
+.project-card:focus {
   box-shadow: 1px 4px 6px 0 var(--project-card-shadow-color1),
     0 4px 4px 0 var(--project-card-shadow-color2),
     0 1px 1px 0px var(--member-card-shadow-color1);
@@ -395,6 +398,7 @@ body {
   fill: var(--member-social-links-color);
   border: 1px solid;
   border-color: var(--member-social-links-color);
+  cursor: pointer;
 }
 
 .client-logo:hover,
@@ -434,6 +438,7 @@ body {
   padding: 12px;
   border-radius: 50%;
   background-color: var(--footer-social-links-background-color);
+  cursor: pointer;
 }
 
 .footer-social-link-icon:hover,
