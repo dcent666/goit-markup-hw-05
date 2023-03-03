@@ -61,8 +61,34 @@ body {
   color: var(--active-link-color);
 }
 
-.active-site {
+.active-site-1 {
   color: var(--active-link-color);
+}
+
+.active-site-2 {
+  color: var(--active-link-color);
+}
+
+.active-site-1::after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 76px;
+  width: 53px;
+  height: 4px;
+  background-color: var(--active-link-color);
+  border-radius: 2px;
+}
+
+.active-site-2::after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 76px;
+  width: 58px;
+  height: 4px;
+  background-color: var(--active-link-color);
+  border-radius: 2px;
 }
 
 .contact {
