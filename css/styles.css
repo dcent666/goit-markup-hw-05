@@ -11,6 +11,7 @@ body {
   --alternative-color: rgb(255, 255, 255);
   --background-color: rgb(47, 48, 58);
   --background-gradient-color: rgba(47, 48, 58, 40%);
+  --background-label-color: rgba(47, 48, 58, 80%);
   --alternative-color-transparent: rgba(255, 255, 255, 60%);
   --hero-shadow-color: rgba(0, 0, 0, 25%);
   --member-card-shadow-color1: rgba(0, 0, 0, 12%);
@@ -122,7 +123,7 @@ body {
   margin: 0 auto;
   font-size: 2.75rem;
   font-weight: 900;
-  line-height: 60px;
+  line-height: 3.75rem;
   color: var(--alternative-color);
   width: 696px;
   text-align: center;
@@ -326,6 +327,25 @@ body {
 .card-lorem-ipsum {
   width: 270px;
   letter-spacing: 0.02em;
+}
+
+.office-thumb {
+  position: relative;
+}
+
+.office-thumb-label {
+  position: absolute;
+  margin: 0;
+  padding: 28px 0;
+  bottom: 3.7px;
+  width: 370px;
+  height: 70px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.03rem;
+  text-align: center;
+  background-color: var(--background-label-color);
+  color: var(--alternative-color);
 }
 
 .section-our-team {
