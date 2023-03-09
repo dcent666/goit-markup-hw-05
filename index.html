@@ -15,6 +15,12 @@
 </head>
 
 <body>
+  <div data-modal class="modal is-hidden">
+    <div class="order-form">
+      <button data-modal-close type="button">x</button>
+    </div>
+
+  </div>
   <header>
     <div class="container header">
       <a class="logo" href="#"><span class="active-logo">Web</span>Studio</a>
@@ -45,8 +51,8 @@
     <section class="section-hero">
       <div class="container">
         <h1 class="hero">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button" class="index-button">Zamów usługę</button>
-      </div>
+        <button data-modal-open type="button" class="index-button">Zamów usługę</button>
+
     </section>
     <!--nasze atuty-->
     <section class="section">
@@ -264,6 +270,8 @@
       </div>
     </div>
   </footer>
+  </div>
+
   <script src="./js/modal.js"></script>
 </body>
 
