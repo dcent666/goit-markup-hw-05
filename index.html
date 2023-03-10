@@ -15,12 +15,7 @@
 </head>
 
 <body>
-  <div data-modal class="modal is-hidden">
-    <div class="order-form">
-      <button data-modal-close type="button">x</button>
-    </div>
 
-  </div>
   <header>
     <div class="container header">
       <a class="logo" href="#"><span class="active-logo">Web</span>Studio</a>
@@ -107,15 +102,18 @@
         <h2 class="section-header">Czym się zajmujemy</h2>
         <ul class="no-decoration-list section-flex">
           <li class="office-thumb">
-            <img src="images/office/desktop.jpg" width="370px" height="294px" alt="Biurko pracownika w naszej firmie">
+            <img class="office-thumb-image" src="images/office/desktop.jpg" width="370px" height="294px"
+              alt="Biurko pracownika w naszej firmie">
             <p class="office-thumb-label">APLIKACJE KOMPUTEROWE</p>
           </li>
           <li class="office-thumb">
-            <img src="images/office/laptop.jpg" width="370px" height="294px" alt="Komunikacja między urządzeniami">
+            <img class="office-thumb-image" src="images/office/laptop.jpg" width="370px" height="294px"
+              alt="Komunikacja między urządzeniami">
             <p class="office-thumb-label">APLIKACJE MOBILNE</p>
           </li>
           <li class="office-thumb">
-            <img src="images/office/tablet.jpg" width="370px" height="294px" alt="Spektrum kolorów">
+            <img class="office-thumb-image" src="images/office/tablet.jpg" width="370px" height="294px"
+              alt="Spektrum kolorów">
             <p class="office-thumb-label">ROZWIĄZANIA GRAFICZNE</p>
           </li>
         </ul>
@@ -271,8 +269,16 @@
     </div>
   </footer>
   </div>
+  <div data-modal class="modal is-hidden">
+    <div class="order-form">
+      <button class="close-button" data-modal-close type="button"><svg width="18px" height="18px">
+          <use href="images/icons.svg#icon-close-button"></use>
+        </svg></button>
+    </div>
 
-  <script src="./js/modal.js"></script>
+  </div>
+  <script src=" ./js/modal.js">
+  </script>
 </body>
 
 </html>
