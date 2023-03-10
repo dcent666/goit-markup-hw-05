@@ -557,6 +557,7 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 100;
+  transition: opacity 500ms linear;
 }
 
 .is-hidden {
@@ -575,7 +576,6 @@ body {
     0px 1px 1px 0px var(--member-card-shadow-color2),
     0px 1px 3px 0px var(--member-card-shadow-color1);
   justify-content: right;
-
 }
 
 .close-button {
